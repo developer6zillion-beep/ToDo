@@ -1,0 +1,19 @@
+li {
+    background-color: #e3e3e3;
+}
+
+li:has(.high-class) {
+    background: #ff8935;
+    color: white;
+}
+
+.addTask {
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+li:has(.Overdue) {
+    background: rgb(255 91 91);
+    color: white;
+}
