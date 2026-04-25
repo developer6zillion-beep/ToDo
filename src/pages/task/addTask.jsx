@@ -28,12 +28,11 @@ function ToDo({ list, setList }) {
         </button>
 
         <button onClick={() => SortBypriority(list, setList)}>Sort Task</button>
-        <p>{err}</p>
+
       </div>
     </>
   );
 }
-let err = "";
 
 function AddTask(title, dateValue, setTitle, setInput, setList, list) {
   if (title.trim() === "" || dateValue.trim() === "") {
